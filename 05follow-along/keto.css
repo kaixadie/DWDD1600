@@ -122,7 +122,11 @@ div.gallery {
 div.gallery figure {
     margin: .5rem 2% 0 0;
 }
-
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+}
 
 /* footer stuff here */
 footer {
