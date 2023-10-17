@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>What Dreams are Made of: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about Dream Significance and Meaning">
+        <meta name="author" content="Kaia McClure">
+        <link rel="stylesheet" href="dreams.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>What Dreams are Made of: Inquiry</h1>
+            <p>How do they impact you and what do they mean?</p>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Types</a></li>
+                <li><a href="commoninterpretations.html">Common Interpretations</a></li>
+                <li><a href="sleepparalysis.html">Paralysis</a></li>
+                <li class="active"><a href="inquiry.html">Inquiry</a></li>
+            
+            
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+            <h1>Submit an Inquiry!</h1>
+              <form method="get" class="myForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Inquirer Information</legend>
+            <label>First Name*<input type="text" name="fname" required placeholder="Jon"></label>
+            <label>Last Name*<input type="text" name="lname" required placeholder="Doe"></label>
+            <label>Phone Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            <label>Email*<input type="email" name="email" required placeholder="jondoe@email.com"></label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Type of Inquiry</legend>
+                <label><input type="radio" name="method" value="inquiry type">Interpretation Request</label>
+                <label><input type="radio" name="method" value="general questions">General Questions</label>
+                <label><input type="radio" name="method" value="experience">Share an Experience</label>
+                <label><input type="radio" name="method" value="fix">Website Fix</label>
+                <label><input type="radio" name="method" value="comment">Comment</label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Frequently Asked Questions</legend>
+                <label><input type="checkbox" name="why" value="chosen"> Why do we dream?</label>
+                <label><input type="checkbox" name="person" value="chosen"> Why did I dream about a specific person?</label>
+                <label><input type="checkbox" name="place" value="chosen"> Why did I dream about a specific place?</label>
+                <label><input type="checkbox" name="lucid" value="chosen"> How can I learn to lucid dream?</label>
+                <label><input type="checkbox" name="paralysis" value="chosen"> How can I avoid sleep paralysis, or make it more bearable?</label></fieldset>
+               
+                <fieldset><label>Preferred Contact Time if We Need to Call?
+                <select name="time">
+                <option value="none">Please Select</option>
+                <option value="morning">Morning</option>
+                <option value="noon">Afternoon</option>
+                <option value="afternoon">Evening</option>
+                <option value="evening">Night</option>
+                </select>
+                </label></fieldset>
+                  
+                <label>Comments
+                  <textarea name="comments"></textarea>
+                  </label>
+                  
+                  <input type="submit" value="Send!">
+            </form>
+            
+            
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Kaia McClure &bull; <a href="mailto:kaiaxmc@gmail.com">Email Us</a> &bull; <a href="tel:8015003287">1-801-500-3287</a></p> 
+        </footer>
+    
+    </body>
+</html>

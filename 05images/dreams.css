@@ -121,7 +121,51 @@ div.gallery figure {
 div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
-    color: #0006F0;
+    color: #9404f3;
+}
+
+.myForm fieldset {
+    border: 1px solid #0006f0;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #0006f0;
+    font-size: .84rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea {
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm [type=email], .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem; 
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: rgba(174,55,255,0.1);
+}
+
+.myForm [type=submit] {
+    background-color: #9404f3;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
 }
 
 
